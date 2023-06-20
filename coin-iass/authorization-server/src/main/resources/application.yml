@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: authorization-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.43.139:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///coin?useSSL=false
+    username: root
+    password: 123
+#  redis:
+#    host: 47.108.239.87
+#    port: 6379
+#    password: 123
